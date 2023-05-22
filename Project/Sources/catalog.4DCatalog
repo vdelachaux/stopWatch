@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="stopWatch" uuid="A5CD7FBCFF9648B1807BE5BBF73968CD" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+</base>
