@@ -1,1 +1,0 @@
-OBJECT SET VALUE:C1742("Clock"; 0)

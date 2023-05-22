@@ -13,9 +13,9 @@
 	"bottomMargin": 20,
 	"events": [
 		"onLoad",
+		"onClick",
 		"onTimer"
 	],
-	"windowTitle": "Watch",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -23,7 +23,7 @@
 		},
 		{
 			"objects": {
-				"Clock": {
+				"watch": {
 					"type": "subform",
 					"top": 20,
 					"left": 20,
@@ -38,9 +38,7 @@
 					"doubleClickInRowAction": "editSubrecord",
 					"selectionMode": "multiple",
 					"printFrame": "variable",
-					"events": [
-						"onLoad"
-					]
+					"events": []
 				},
 				"start": {
 					"type": "button",
@@ -52,46 +50,30 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/start.4dm",
 					"defaultButton": true,
-					"focusable": false
-				},
-				"stop": {
-					"type": "button",
-					"text": "Stop",
-					"top": 51,
-					"left": 160,
-					"width": 69,
-					"height": 23,
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/stop.4dm",
 					"focusable": false
 				},
 				"reset": {
 					"type": "button",
 					"text": "Reset",
-					"top": 117,
+					"top": 55,
 					"left": 160,
 					"width": 69,
 					"height": 23,
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/reset.4dm",
 					"focusable": false
 				}
 			},
 			"entryOrder": [
 				"start",
-				"stop",
 				"reset",
-				"Clock"
+				"watch"
 			]
 		}
 	],
-	"geometryStamp": 24,
+	"geometryStamp": 45,
 	"method": "method.4dm",
 	"editor": {
 		"activeView": "View 1",
